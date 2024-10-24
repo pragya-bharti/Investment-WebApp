@@ -15,3 +15,4 @@ pandas_datareader
 #import os 
 #user_name = os.environ.get('USER')
 #password = os.environ.get('password')
+pillow>=10.0.0 # not directly required, pinned by Snyk to avoid a vulnerability
