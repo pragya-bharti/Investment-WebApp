@@ -15,3 +15,13 @@ pandas_datareader
 #import os 
 #user_name = os.environ.get('USER')
 #password = os.environ.get('password')
+anyio>=4.4.0 # not directly required, pinned by Snyk to avoid a vulnerability
+fonttools>=4.43.0 # not directly required, pinned by Snyk to avoid a vulnerability
+numpy>=1.22.2 # not directly required, pinned by Snyk to avoid a vulnerability
+pillow>=10.3.0 # not directly required, pinned by Snyk to avoid a vulnerability
+requests>=2.32.2 # not directly required, pinned by Snyk to avoid a vulnerability
+starlette>=0.40.0 # not directly required, pinned by Snyk to avoid a vulnerability
+urllib3>=2.2.2 # not directly required, pinned by Snyk to avoid a vulnerability
+werkzeug>=3.0.3 # not directly required, pinned by Snyk to avoid a vulnerability
+wheel>=0.38.0 # not directly required, pinned by Snyk to avoid a vulnerability
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
